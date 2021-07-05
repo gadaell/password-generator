@@ -10,10 +10,15 @@ A website that generates different passwords of your choice. You can change the 
 - CSS
 - JavaScript
 
+## Challenges
+
+- I'm unable to display the password onto the website. At first I was getting somewhere because the Generation password was working, but now it's not. I don't know what I am overlooking. This definitely has been my biggest challenge so far.
+
 ## Website
 
-https:#
-https:#
+- https:https://github.com/gadaell/password-generator
+
+* https: https://gadaell.github.io/password-generator/
 
 ## Contribution
 

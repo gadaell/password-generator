@@ -1,6 +1,6 @@
 # Password Generator Starter Code
 
-![Screenshot](./develop/images/screenshot-password-generator.PNG)
+![Screenshot](./css/images/screenshot-password-generator.PNG)
 
 # Purpose
 

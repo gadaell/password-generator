@@ -18,9 +18,9 @@ A website that generates different passwords of your choice. You can change the 
 
 ## Website
 
-- https:https://github.com/gadaell/password-generator
+- https://github.com/gadaell/password-generator
 
-* https: https://gadaell.github.io/password-generator/
+* https://gadaell.github.io/password-generator/
 
 ## Contribution
 

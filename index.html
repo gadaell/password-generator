@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Develop/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -17,36 +17,52 @@
           <h2>Generate a Password</h2>
         </div>
 
-        <form id="passwordGeneratorForm" class="subtitle"> 
-        <label for="charactterAmountNumber">Number of Characters</label>
-        <input type="range" min="8" max="128" value ="8" id="characterAmountRange">
-        <input class="number-input" type="number" min="8" max= "128" value ="8" id="characterAmountNumber">
-        </form>
+        <form id="passwordGeneratorForm" class="subtitle">
+          <label for="charactterAmountNumber">Number of Characters</label>
+          <input
+            type="range"
+            min="8"
+            max="128"
+            value="8"
+            id="characterAmountRange"
+          />
+          <input
+            class="number-input"
+            type="number"
+            min="8"
+            max="128"
+            value="8"
+            id="characterAmountNumber"
+          />
 
-        <form id="selectors"> 
-        <label for="includeLowercase">Include Lowercase Letters</label>
-        <input type="checkbox" id="includeLowercase">
-        
-        <label for="includeUppercase">Include Uppercase Letters</label>
-        <input type="checkbox" id="includeUppercase">
-        
-        <label for="includeNumber">Include Numeric Characters</label>
-        <input type="checkbox" id="includeNumber">
-        
-        <label for="includeSymbol">Include Symbol Characters</label>
-        <input type="checkbox" id="includeSymbol">
-        </form> 
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button type="submit" id="generate" class="btn">Generate Password</button>
-        </div>
+          <div id="selectors">
+            <label for="includeLowercase">Include Lowercase Letters</label>
+            <input type="checkbox" id="includeLowercase" />
+
+            <label for="includeUppercase">Include Uppercase Letters</label>
+            <input type="checkbox" id="includeUppercase" />
+
+            <label for="includeNumber">Include Numeric Characters</label>
+            <input type="checkbox" id="includeNumber" />
+
+            <label for="includeSymbol">Include Symbol Characters</label>
+            <input type="checkbox" id="includeSymbol" />
+          </div>
+          <div class="card-body">
+            <textarea
+              readonly
+              id="password"
+              placeholder="Your Secure Password"
+              aria-label="Generated Password"
+            >
+            </textarea>
+          </div>
+          <div class="card-footer">
+            <button type="submit" id="generate" class="btn">
+              Generate Password
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="script.js"></script>
